@@ -1,6 +1,5 @@
 RewriteEngine On
-RewriteBase /www/
-RewriteRule ^(?!.*\.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot|pdf)).*$ /www/index.html [L]
+RewriteRule ^(?!.*\.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot|pdf)).*$ /index.html [L]
 
 # Cache static assets
 <IfModule mod_expires.c>
